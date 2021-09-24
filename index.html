@@ -1,0 +1,106 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="flower_background.jpg">
+    <center>
+        <h3>CASE STUDY BETWEEN GOOGLE LENS vs. MOBILENET 
+          <hr>
+          <center>
+           <img src="GL.png" style="width:100px;">
+           <br>
+           VS.
+           <br>
+           <h1 class="btn btn-primary">MOBILENET</h1>
+
+    <ol style="padding:0px;">
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test image- </b>
+                <img src="headphones.jpg" style="width:100px;" class="img_responsive">
+            </li>
+          
+            <h5 class="col-sm-4 col-xs-12 btn btn-primary">
+                Output on <b>GOOGLE LENS</b> -purple wireless cat ear headphones
+                <span>headphones</span>
+            </h5>
+            
+            <h5 class="col sm-4 col xs-12 btn btn-primary">
+                Output on <b>MOBILENET</b> - Gasmask, respirator, gas helmet
+                <span>headphones</span>
+            </h5>
+         
+            <div class="mini_result" class="col-xs-12">
+            <h4>Result- GOOGLE LENS is more accurate</h4>
+            <hr>
+            <h4></h4>
+         </div>
+        <br>
+         <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test image- </b>
+                <img src="shoes.jpg" style="width:100px;" class="img_responsive">
+            </li>
+          
+            <h5 class="col-sm-4 col-xs-12 btn btn-primary">
+                Output on <b>GOOGLE LENS</b> -men's vans og old skool LX
+                <span>shoes</span>
+            </h5>
+            
+            <h5 class="col sm-4 col xs-12 btn btn-primary">
+                Output on <b>MOBILENET</b> - Running shoes
+                <span>shoes</span>
+            </h5>
+         
+            <div class="mini_result" class="col-xs-12">
+            <h4>Result- Both are correct </h4>
+            <hr>
+            <h4></h4>
+         </div>
+
+        </div>
+
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test image- </b>
+                <img src="specs.jpg" style="width:100px;" class="img_responsive">
+            </li>
+          
+            <h5 class="col-sm-4 col-xs-12 btn btn-primary">
+                Output on <b>GOOGLE LENS</b> -eye wear square metal
+                <span>specs</span>
+            </h5>
+            
+            <h5 class="col sm-4 col xs-12 btn btn-primary">
+                Output on <b>MOBILENET</b> - Mouse, knot
+                <span>specs</span>
+            </h5>
+         
+            <div class="mini_result" class="col-xs-12">
+            <h4>Result- GOOGLE LENS is more accurate </h4>
+            <hr>
+            <h4></h4>
+         </div>
+
+        </div>
+
+       
+         </div>
+
+         </ol>
+
+         <h4>I have tested 3 images out of that MOBILENET gave only 1 corerect and others are wrong but GOOGLENS gave all accurate</h4>
+    </center>
+    </h3>
+    </center>
+    </body>
+

@@ -1,0 +1,16 @@
+
+.test_image_and_result{
+    padding:50px;
+    margin-top:50px;
+}
+ol h5{
+    background:rgb(225, 137, 255);
+    padding:20px;
+    margin-left:15px;
+}
+
+.mini_result{
+    margin-top:60px;
+    background: royalblue;
+    padding:15px;
+}
